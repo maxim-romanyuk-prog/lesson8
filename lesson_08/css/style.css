@@ -106,7 +106,7 @@ body{
 .articles__block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 391px;
     height: 176px;
     padding-left: 50px;
@@ -162,8 +162,6 @@ li::before{
 
 }
 a{
-    padding-left: 8px;
-    padding-top: 6px;
     margin-right: 20px;
 }
 .feedback__selfie{
